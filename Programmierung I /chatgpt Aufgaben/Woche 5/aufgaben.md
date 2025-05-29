@@ -1,5 +1,8 @@
-Aufgabe 1
-"Passwort-Eingabe mit Wiederholung" Beschreibung:
+
+# Aufgabe 1 
+
+"Passwort-Eingabe mit Wiederholung"
+Beschreibung:
 
 Das Programm verlangt ein Passwort (z. B. "geheim").
 
@@ -9,21 +12,31 @@ Bei korrektem Passwort erscheint "Zugang gewährt", sonst "Zugang verweigert" na
 
 → Schwierigkeit: Zählen der Versuche + richtige Schleifenbedingung.
 
-Aufgabe 2
-"Summiere alle geraden Zahlen" Beschreibung:
 
-Dein Programm fragt: "Bis zu welcher Zahl willst du die geraden Zahlen addieren?"
+
+# Aufgabe 2
+
+ "Summiere alle geraden Zahlen"
+Beschreibung:
+
+Dein Programm fragt:
+"Bis zu welcher Zahl willst du die geraden Zahlen addieren?"
 
 Danach rechnet es alle geraden Zahlen (2, 4, 6, …) bis zu dieser Zahl zusammen.
 
 Beispiel:
-
+```
 Eingabe: 10
 Ergebnis: 2 + 4 + 6 + 8 + 10 = 30
+```
 → Schwierigkeit: Nur bestimmte Zahlen summieren (if (zahl % 2 == 0)).
 
-Aufgabe 3 (Bonus)
-"Finde die größte Zahl in einem Array (nur mit Pointern)" Beschreibung:
+
+
+# Aufgabe 3 (Bonus)
+
+"Finde die größte Zahl in einem Array (nur mit Pointern)"
+Beschreibung:
 
 Dein Programm soll:
 
@@ -37,8 +50,9 @@ Nur mit Pointern (keine []-Klammern!) durch das Array laufen und die größte Za
 
 Die größte Zahl ausgeben.
 
-Beispiel-Ablauf:
 
+Beispiel-Ablauf:
+```
   Wie viele Zahlen möchtest du eingeben? 5
   Gib Zahl 1 ein: 12
   Gib Zahl 2 ein: 45
@@ -47,6 +61,8 @@ Beispiel-Ablauf:
   Gib Zahl 5 ein: 23
   
   Die größte Zahl ist: 64
+```
+
 Zusatzhinweise:
 
 Keine normale Array-Syntax wie array[i] verwenden — nur Zeiger-Arithmetik (*(ptr + i) oder ähnliches).
